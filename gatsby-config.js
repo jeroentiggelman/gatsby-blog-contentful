@@ -1,8 +1,8 @@
 const dotenv = require ('dotenv')
 
-if (process.env.NODE_ENV !== 'production') {
+// if (process.env.NODE_ENV !== 'production') {
   dotenv.config()
-}
+// }
 
 module.exports = {
   siteMetadata: {
@@ -62,7 +62,7 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
+    // `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
